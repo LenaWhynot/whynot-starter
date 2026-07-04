@@ -11,7 +11,19 @@
       "Bash(rm -rf:*)",
       "Bash(rm -r:*)",
       "Bash(sudo rm:*)",
-      "Bash(sudo:*)"
+      "Bash(sudo:*)",
+      "Bash(cat*.env*)",
+      "Bash(less*.env*)",
+      "Bash(more*.env*)",
+      "Bash(head*.env*)",
+      "Bash(tail*.env*)",
+      "Bash(grep*.env*)",
+      "Bash(awk*.env*)",
+      "Bash(sed*.env*)",
+      "Bash(cp*.env*)",
+      "Bash(mv*.env*)",
+      "Bash(base64*.env*)",
+      "Bash(xxd*.env*)"
     ]
   }
 }
