@@ -1,0 +1,7 @@
+# Секреты — никогда в git
+.env
+.env.*
+
+# Служебное
+.DS_Store
+node_modules/
