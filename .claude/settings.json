@@ -23,7 +23,30 @@
       "Bash(cp*.env*)",
       "Bash(mv*.env*)",
       "Bash(base64*.env*)",
-      "Bash(xxd*.env*)"
+      "Bash(xxd*.env*)",
+      "Bash(strings*.env*)",
+      "Bash(od*.env*)",
+      "Bash(python*.env*)",
+      "Bash(python3*.env*)",
+      "Bash(node*.env*)",
+      "Bash(perl*.env*)",
+      "Bash(ruby*.env*)",
+      "Bash(php*.env*)",
+      "Bash(printenv)",
+      "Bash(printenv:*)",
+      "Bash(env)",
+      "Bash(env:*)",
+      "Bash(tac *.env*)",
+      "Bash(sort *.env*)",
+      "Bash(nl *.env*)",
+      "Bash(diff *.env*)",
+      "Bash(uniq *.env*)",
+      "Bash(rev *.env*)",
+      "Bash(xxd *.env*)",
+      "Bash(hexdump *.env*)",
+      "Bash(tail *.env*)",
+      "Bash(tr *.env*)"
     ]
-  }
+  },
+  "_security_note": "УЧЕБНАЯ ПЕСОЧНИЦА, не защитный периметр: .env содержит ТОЛЬКО фейковые ключи (см. CLAUDE.md). Денилист = демо-реквизит бита 'агент отказывается читать секреты'. Реальный контроль — отсутствие настоящих секретов в шаблоне. Полный allowlist отклонён осознанно (Лена, 05-07.07.2026): убьёт юзабилити для новичков. Санкционировано, не расширять бесконечно."
 }
